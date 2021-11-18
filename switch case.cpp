@@ -1,4 +1,6 @@
 
+// 137533 Kelvin Lemanta
+
 // using switch case to show tametable
 
 #include <iostream>
@@ -9,43 +11,43 @@ int main (){
 	
 	cout << "Hello. This is the timetable you will be using.";
 	cout << "\n1. Mon\n2. Tuesday\n3. Wednesday\n4. Thursday\n5. Friday"<<endl<<endl; 
-	cout<< " Select the day of choice (e.g. 1, 2, 3, 4, 5.)"<<endl;
+	cout<< "Â SelectÂ the dayÂ ofÂ choiceÂ (e.g.Â 1,Â 2,Â 3, 4, 5.)"<<endl;
 	cin>>opt;
 	
 	switch (opt){
 		
 		case 1:{
-			cout<<"Monday Classes\n...................."<<endl;
-			cout<<"\t1. DBIT 1106: Mathematics for Business."<<endl;
-			cout<<"\t2. DBIT 1104: Ethics"<<endl;
+			cout<<"MondayÂ Classes\n...................."<<endl;
+			cout<<"\t1.Â DBITÂ 1106:Â Mathematics for Business."<<endl;
+			cout<<"\t2.Â DBITÂ 1104:Â Ethics"<<endl;
 			break;
 		}
 				
 			
 		case 2:{
-			cout<<"Tuesday Classes\n..................."<<endl;
-			cout<<"\t2. DBIT 1102: Intro to Programming"<<endl;
+			cout<<"TuesdayÂ Classes\n..................."<<endl;
+			cout<<"\t2.Â DBITÂ 1102:Â IntroÂ toÂ Programming"<<endl;
 			break;
 		}
 		
 	 
 		case 3:{
-			cout<<"Wednesday Classes\n..................."<<endl;
-			cout<<"\t1. DBIT 1206: Business Finance"<<endl;
+			cout<<"WednesdayÂ Classes\n..................."<<endl;
+			cout<<"\t1.Â DBITÂ 1206:Â Business Finance"<<endl;
 			break;
 		}
 			
 		
 		case 4:{
-			cout<<"Thursday Classes\n..................."<<endl;
-		    cout<<"\t1. DBIT 1106: Object Orriented Programing"<<endl;
+			cout<<"ThursdayÂ Classes\n..................."<<endl;
+		    cout<<"\t1.Â DBITÂ 1106:Â Object Orriented Programing"<<endl;
 			break;
 		}
 		    
 		    
 		case 5:{
-			cout<<"Friday Classes\n..................."<<endl;
-			cout<<"\t1. DBIT 1106: Business Comunication"<<endl;
+			cout<<"FridayÂ Classes\n..................."<<endl;
+			cout<<"\t1.Â DBITÂ 1106:Â Business Comunication"<<endl;
 			break;
 		}
 			
